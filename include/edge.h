@@ -1,7 +1,7 @@
 #ifndef EDGE_H
 #define EDGE_H
 #include <vertex.h>
-
+#include<list.h>
 
 
 typedef struct {
@@ -9,7 +9,7 @@ typedef struct {
   int id;
   char  Name[15];
   void * private;
-  vertex * v1 ,* v2;
+  vertex * vertex1 ,* vertex2;
   void * hookup;
 
 }edge;

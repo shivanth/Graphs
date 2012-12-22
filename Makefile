@@ -2,7 +2,7 @@ CC=gcc
 INCDIR="./include"
 CCFLAGS=-c -Wall -I$(INCDIR)
 DEBUG= -g
-SOURCES=vertex.c edge.c test.c util.c
+SOURCES=vertex.c edge.c test.c util.c log.c graph.c
 OBJECTS=$(SOURCES:.c=.o)
 
 EXECUTABLE=test
